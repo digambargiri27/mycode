@@ -22,3 +22,6 @@ novowels = re.sub(r"[aeiou]+", "", androidsDream)  # remove
              ## any vowels and replace with an empty string
 print("r nw stry ftrng Stvn Bty nd hs nrwhl frnds:\n", novowels)
 
+bangs = re.sub(r"\.","!!",androidsDream)
+
+print(bangs)
